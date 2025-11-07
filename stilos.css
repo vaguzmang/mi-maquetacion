@@ -1,6 +1,8 @@
+
 .blue-rectangle {
     border: 2px solid blue;
-    width: 900px;
+    width: 90%; 
+    max-width: 900px; 
     height: 350px;
     display: flex;
     justify-content: center;
@@ -21,14 +23,66 @@
     background-color: red;
     border-radius: 50%;
     position: absolute;
-    top: 55%;
-    left: 53%;
-    transform: translate(-50%, -50%);
+    bottom: 52%; 
+    right: 44%; 
 }
 
-.contenido1{
-    width: 300px;
-    height: 250px;
-    background-color: rgb(189, 162, 162);
-    position: relative;
+ */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    text-align: center;
+}
+
+.card h2 {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    color: blue;
+    text-decoration: none;
 }
